@@ -1,0 +1,91 @@
+---
+title: "my first Qmd document"
+format: html
+jupyter: python3
+---
+
+
+# Title 1 (h1)
+
+## Title 2 (h2)
+
+### Title 3 (h3)
+
+* preview: `Ctrl+Shift+K`
+
+**bold** 
+
+*italic*
+
+~~Strikethrough~~
+
+
+- list 1
+    - list 1-1
+    - list 1-2
+- list 2
+
+Ordered List
+
+1. item
+2. item
+
+
+1. python packages
+    1. pandas
+    1. numpy
+1. R packages
+    1. Dplyr
+    1. ggplot
+
+
+you can visit [Quarto official site](https://quarto.org/)
+
+![Quarto logo-web](https://quarto.org/quarto.png)
+
+![Quarto logo-local](./quarto.png)
+ 
+| Name | Age | Job | 
+|------|----|-------| 
+| Jameson | 25 | Data Analyst | 
+| Jack | 30 | Developer |
+
+
+### Inline Math
+this line is inline math: $E = mc^2$
+
+### Block Math
+below is block math:
+$$
+\sum_{i=1}^{n} x_i = \frac{n(n+1)}{2}
+$$
+
+
+### Aligned Equations
+$$
+\begin{aligned}
+    a &= b + c \\
+      &= d + e + f
+\end{aligned}
+$$
+
+
+* `code`
+* `\\` new line 
+* `&` alignment standard
+
+
+## Why Quarto?
+
+You can insert Python code chunks.
+
+`Ctrl + Shift + i`
+
+
+
+```{python}
+import numpy as np
+a = np.arange(10)
+print(a)
+```
+
